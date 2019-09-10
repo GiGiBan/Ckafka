@@ -1,5 +1,7 @@
 package util;
 
+
+
 public class HTTPRequestParam {
 	
 	public String instanceId;
@@ -14,6 +16,8 @@ public class HTTPRequestParam {
 	public int uncleanLeaderElectionEnable;
 	public int retentionMs;
 	public int segmentMs;
+	
+	
 	public String getInstanceId() {
 		return instanceId;
 	}
